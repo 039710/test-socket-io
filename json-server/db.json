@@ -1,0 +1,177 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "room": "Room 1",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "room": "Room 2",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "room": "Room 3",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "room": "Room 4",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "User 1",
+      "email": "user1@mail.com",
+      "password": "123456",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "User 2",
+      "email": "user2@mail.com",
+      "password": "123456",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "User 3",
+      "email": "user3@mail.com",
+      "password": "123456",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    }
+  ],
+  "users_rooms": [
+    {
+      "id": 1,
+      "usersId": 1,
+      "roomsId": 1,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "usersId": 1,
+      "roomsId": 2,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "usersId": 1,
+      "roomsId": 3,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "usersId": 1,
+      "roomsId": 4,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "usersId": 2,
+      "roomsId": 1,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "usersId": 2,
+      "roomsId": 2,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "usersId": 2,
+      "roomsId": 3,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2020-01-01T00:00:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "roomsId": "4",
+      "usersId": "2",
+      "message": "wew",
+      "users": {
+        "name": "User 2",
+        "id": "2"
+      },
+      "id": 1
+    },
+    {
+      "roomsId": "4",
+      "usersId": "1",
+      "message": "a",
+      "users": {
+        "name": "User 1",
+        "id": "1"
+      },
+      "id": 2
+    },
+    {
+      "roomsId": "4",
+      "usersId": "1",
+      "message": "wew",
+      "users": {
+        "name": "User 1",
+        "id": "1"
+      },
+      "id": 3
+    },
+    {
+      "roomsId": "4",
+      "usersId": "1",
+      "message": "a",
+      "users": {
+        "name": "User 1",
+        "id": "1"
+      },
+      "id": 4
+    },
+    {
+      "roomsId": "4",
+      "usersId": "2",
+      "message": "b",
+      "users": {
+        "name": "User 2",
+        "id": "2"
+      },
+      "id": 5
+    },
+    {
+      "roomsId": "4",
+      "usersId": "2",
+      "message": "b",
+      "users": {
+        "name": "User 2",
+        "id": "2"
+      },
+      "id": 6
+    },
+    {
+      "roomsId": "4",
+      "usersId": "2",
+      "message": "b",
+      "users": {
+        "name": "User 2",
+        "id": "2"
+      },
+      "id": 7
+    }
+  ]
+}
